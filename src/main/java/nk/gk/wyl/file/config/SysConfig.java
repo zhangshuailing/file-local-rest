@@ -1,0 +1,28 @@
+package nk.gk.wyl.file.config;
+
+/**
+ * 系统参数配置
+ */
+public class SysConfig {
+    // 文件路径
+    private static String uploadFile_path;
+
+    public static String getUploadFile_path() {
+        return uploadFile_path;
+    }
+
+    public static void setUploadFile_path(String uploadFile_path) {
+        SysConfig.uploadFile_path = uploadFile_path;
+    }
+
+
+    private static String fileSuffix;
+
+    public static String getFileSuffix() {
+        return fileSuffix;
+    }
+
+    public static void setFileSuffix(String fileSuffix) {
+        SysConfig.fileSuffix = fileSuffix;
+    }
+}

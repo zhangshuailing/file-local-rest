@@ -1,0 +1,12 @@
+server:
+  port: 80
+
+
+# 是否开启 swagger
+swagger:
+  enable: true
+
+
+
+uploadFilePath:
+  E:/golaxy/uploadFile/
